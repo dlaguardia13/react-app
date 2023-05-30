@@ -28,6 +28,231 @@
   color: #61dafb;
 }
 
+.header {
+  padding: 20px;
+  background-color: #a2a1a1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-info {
+  font-weight: bold;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: blue;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px; /* Radio del borde del div */
+  font-weight: bold;
+}
+
+.link-to {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.corner-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.button-link:hover {
+  background-color: darkblue;
+}
+
+.div-data {
+    line-height: 0.5;
+    width: 250px; /* Ancho del div */
+    height: 150px; /* Alto del div */
+    background-color: #f1f1f1; /* Color de fondo del div */
+    border: 1px solid #ccc; /* Borde del div */
+    border-radius: 5px; /* Radio del borde del div */
+    padding: 13px; /* Espacio interno del div */
+    box-sizing: border-box; /* Incluir borde y relleno en el ancho y alto del div */
+    text-align: center; /* Alineación del contenido del div */
+    font-family: Arial, sans-serif; /* Fuente del texto dentro del div */
+    font-size: 16px; /* Tamaño del texto dentro del div */
+    color: #333; /* Color del texto dentro del div */
+}
+
+.div-fliter {
+  line-height: 0.5;
+  width: 250px; /* Ancho del div */
+  height: 150px; /* Alto del div */
+  background-color: #f1f1f1; /* Color de fondo del div */
+  border: 1px solid #ccc; /* Borde del div */
+  border-radius: 5px; /* Radio del borde del div */
+  padding: 13px; /* Espacio interno del div */
+  box-sizing: border-box; /* Incluir borde y relleno en el ancho y alto del div */
+  text-align: center; /* Alineación del contenido del div */
+  font-family: Arial, sans-serif; /* Fuente del texto dentro del div */
+  font-size: 16px; /* Tamaño del texto dentro del div */
+  color: #333; /* Color del texto dentro del div */
+}
+
+.div-currency {
+  line-height: 0.5;
+  width: 250px; /* Ancho del div */
+  height: 74px; /* Alto del div */
+  background-color: #f1f1f1; /* Color de fondo del div */
+  border: 2px solid #ccc; /* Borde del div */
+  border-radius: 5px; /* Radio del borde del div */
+  padding: 13px; /* Espacio interno del div */
+  box-sizing: border-box; /* Incluir borde y relleno en el ancho y alto del div */
+  text-align: center; /* Alineación del contenido del div */
+  font-family: Arial, sans-serif; /* Fuente del texto dentro del div */
+  font-size: 16px; /* Tamaño del texto dentro del div */
+  color: #333; /* Color del texto dentro del div */
+}
+
+.div-simulation {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para los inputs de texto */
+.input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para los botones */
+.button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el combobox */
+.select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.select-filter {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-right: 5px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.table-log {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.th {
+  padding: 8px;
+  background-color: #bfbcbc;
+  border-bottom: 1px solid #ddd;
+  text-align: center,
+}
+
+.td {
+  padding: 8px;
+  border-bottom: 3px solid #ddd;
+  text-align: center;
+}
+
+.mi-boton {
+  background-color: blue;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.mi-boton:hover {
+  background-color: darkblue;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
